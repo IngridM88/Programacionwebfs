@@ -1,0 +1,33 @@
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    color: orange;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+header,
+div {color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: none;
+}
