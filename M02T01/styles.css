@@ -1,0 +1,110 @@
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: grab;
+}
+
+a:visited {
+    color: orange;
+}
+
+.button {
+    cursor: grab;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    position: relative;
+    padding-left: 7%;
+    font-size: 17px;
+}
+
+.tablebox {
+    column-width: 30%;
+    padding: 20px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    box-shadow: 0px 7px 43px 0px rgba(0, 0, 0, 0.61);
+    -webkit-box-shadow: 0px 7px 43px 0px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 0px 7px 43px 0px rgba(0, 0, 0, 0.61);
+}
+
+header,
+div {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.credenciales {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+}
+
+.ombre {
+    width: 100%;
+    background: rgb(21, 206, 144);
+    background: linear-gradient(90deg, rgb(21, 206, 144) 0%, rgb(0, 0, 0) 90%);
+    background: -webkit-linear-gradient(90deg, rgb(21, 206, 144) 0%, rgb(0, 0, 0) 90%);
+    background: -moz-linear-gradient(90deg, rgb(21, 206, 144) 0%, rgb(0, 0, 0) 90%);
+}
+
+.imagefull {
+    filter: drop-shadow(10px 10px 102px #000000);
+    -webkit-filter: drop-shadow(10px 10px 102px #000000);
+    -moz-filter: drop-shadow(10px 10px 102px #000000);
+    border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+}
+
+.imagecut {
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+}
+
+h2 {
+    text-shadow: 4px 6px 7px rgba(0, 0, 0, 0.6);
+}
+
+.tituloblanco {
+    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.54);
+}
+
+.perfil {
+    column-count: 3;
+    column-gap: 15px;
+    column-rule: solid;
+}
+
+textarea {
+    margin-top: 10px;
+    border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+}
