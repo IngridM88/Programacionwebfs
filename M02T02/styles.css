@@ -1,0 +1,125 @@
+/*All boxes*/
+body {
+    justify-content: center;
+    background: rgb(72, 116, 167)
+}
+
+.item1 {
+    background: rgb(255, 238, 3);
+}
+
+.item2 {
+    background: rgb(228, 27, 110);
+}
+
+.item3 {
+    background: rgb(184, 243, 22);
+}
+
+.item1,
+.item2,
+.item3 {
+    padding: 10px;
+    flex-grow: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+/*Index Box*/
+.bigbadbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(72, 116, 167);
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.contentbox {
+    width: 180px;
+    height: 180px;
+    border: solid 2px;
+    padding: 10px;
+    flex-grow: 0;
+    border-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/*Caja1*/
+.bigbadbox1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    border: solid 4px;
+    border-color: rgb(0, 0, 0)
+}
+
+.contentbox1 {
+    width: 150px;
+    height: 150px;
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+/*Caja2*/
+.bigbadbox2 {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 5px;
+    margin: 0;
+    align-items: center;
+}
+
+.contentbox2 {
+    flex-basis: 180px;
+    height: 180px;
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Caja3*/
+.bigbadbox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 600px;
+    height: 600px;
+    border: solid 5px;
+    margin: 0;
+    align-items: flex-end;
+}
+
+.contentbox3 {
+    width: 180px;
+    height: 180px;
+    border: solid 2px;
+    flex-grow: 0;
+    border-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
