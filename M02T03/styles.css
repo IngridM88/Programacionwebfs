@@ -1,0 +1,100 @@
+/*Mobile*/
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-shadow: 0px 2px 11px rgba(149, 0, 0, 0.95);
+    transform: scale(1.5);
+
+}
+
+.container {
+    background-color: rgb(93, 145, 204);
+    width: 100%;
+    padding-left: 2px;
+    overflow: hidden;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.box {
+    border: solid salmon;
+    width: 25%;
+    padding: px;
+    margin: 5px;
+}
+
+.box:hover {
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.55);
+}
+
+.nav {
+    float: left;
+    background-color: rgb(212, 88, 43);
+}
+
+.main {
+    float: left;
+    width: 40%;
+    background-color: rgb(255, 234, 41);
+    color: black;
+    margin-left: 10px;
+}
+
+.side {
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(42, 90, 180);
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-right: 20px;
+    }
+
+    .box {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+    }
+
+    .nav {
+        background-color: rgb(247, 140, 39);
+    }
+
+    .main {
+        background-color: rgb(203, 230, 51);
+    }
+
+    .side {
+        background-color: rgb(116, 138, 172);
+    }
+}
+
+@media screen and (min-width:1014px) {
+    .main {
+        width: 48%;
+    }
+
+    .nav {
+        width: 20%;
+    }
+
+    .side {
+        background-color: rgb(142, 90, 177);
+    }
+}
